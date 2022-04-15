@@ -1,73 +1,64 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+<!-- # Book-Store
 
-> Description the project.
+> "Book-Store" is a website you can add and remove books. With "Book-Store" and it's API, the books are stored for everybody and ready for later use. -->
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- HTML
+- CSS
+- JAVASCRIPT
+- REACT
+- REDUX
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+Start by cloning the repository.
 
+`git clone https://github.com/thermiee/React-Capstone.git`
 
-To get a local copy up and running follow these simple example steps.
+Navigate to the created folder.
 
-### Prerequisites
+`cd React-Capstone`
 
-### Setup
+Install all the dependencies.
 
-### Install
+`npm install`
 
-### Usage
+Run the live server
 
-### Run tests
+`npm run start`
 
-### Deployment
+Go to [Localhost](http://localhost:3000)
 
+Build the distribution folder before hosting the app
 
+`npm run build`
+
+After the build you can host the `build` folder.
 
 ## Authors
 
-👤 **Author1**
+👤 **Emmanuel Jolugbo**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
+- GitHub: [Thermiee](https://github.com/thermiee)
+- LinkedIn: [Emmanuel Jolugbo](https://www.linkedin.com/in/emmanuel-jolugbo/)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
+## Acknowledgments
+
+Thank you Microverse for the opportunity!
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [GNU](./LICENSE) licensed.
