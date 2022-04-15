@@ -2,17 +2,21 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
-    background-color: #f73d7d;
+    padding: 5px;
+    background-color: #4369b2;
+    height: 50px;
+    box-shadow: 2px 2px 4px 0 rgb(0 0 0 / 20%);
     color: #fff;
 }
 
 .navbar h1 {
     font-weight: 600;
+    color: #fff;
 }
 
 .navbar h2 {
-    font-weight: 200;
+    font-weight: 400;
+    color: #fff;
 }
 
 .navbar-list {
