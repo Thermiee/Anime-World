@@ -1,11 +1,14 @@
-import './App.css';
-import Navbar from './navbar/Navbar';
+import React from 'react';
+import Navbar from './components/Navbar';
+import AnimePage from './pages/Anime';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <h1>Hello World</h1>
+      <header className="App-header">
+        <Navbar />
+      </header>
+      <AnimePage />
     </div>
   );
 }
