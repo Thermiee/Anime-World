@@ -19,10 +19,10 @@ const AnimePage = () => {
       <div className="anime-list">
         <h4>List of Animes </h4>
       </div>
-      <div>
+      <div className="anime-row">
         {data.map((anime) => (
           <AnimeCard
-            key={anime.id}
+            key={anime.name}
             name={anime.name}
             image={anime.image}
           />

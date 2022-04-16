@@ -24,4 +24,36 @@
 
 .anime-list h4 {
   margin: 0;
+  padding: 0 10px;
+  color: #fff;
+}
+
+.anime-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.anime-card {
+    align-items: center;
+    justify-content: space-between;
+    background-color: #548dfe;
+    padding: 10px;
+    box-shadow: 2px 2px 4px 0 rgb(0 0 0 / 20%);
+    width: 44.5%;
+    color: #fff;
+}
+
+.anime-card img {
+    width: 100%;
+    height: 25vh;
+}
+
+.anime-card-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.anime-card-info h3 {
+    font-size: smaller;
 }

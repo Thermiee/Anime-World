@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { BsArrowRightCircle } from 'react-icons/bs';
 
 const AnimeCard = (props) => {
   const { name, image } = props;
@@ -10,7 +11,8 @@ const AnimeCard = (props) => {
         <img src={image} alt={name} />
       </div>
       <div className="anime-card-info">
-        <h1>{name}</h1>
+        <h3>{name}</h3>
+        <BsArrowRightCircle />
       </div>
     </div>
   );
