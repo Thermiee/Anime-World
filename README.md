@@ -1,9 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-<!-- # Book-Store
+# Anime-World
 
-> "Book-Store" is a website you can add and remove books. With "Book-Store" and it's API, the books are stored for everybody and ready for later use. -->
+> "Anime-World" is a website show list of animes and show different facts about them.
 
+![Homepage](./application.png)
+
+Design From [Behance](https://www.behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29)
 
 ## Built With
 
