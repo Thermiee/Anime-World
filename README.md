@@ -4,6 +4,8 @@
 
 > "Anime-World" is a website show list of animes and show different facts about them.
 
+[Live Demo](scintillating-khapse-6ebe08.netlify.app)
+
 ![Homepage](./application.png)
 
 Design From [Behance](https://www.behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29)
