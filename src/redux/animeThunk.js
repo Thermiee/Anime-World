@@ -8,6 +8,7 @@ const fetchAnimeThunk = () => async (dispatch) => {
     );
 
     const payload = response.data.map((anime) => ({
+      id: anime.anime_id,
       name: anime.anime_name,
       image: anime.anime_img,
     }));

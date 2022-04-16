@@ -29,31 +29,33 @@
 }
 
 .anime-row {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .anime-card {
-    align-items: center;
-    justify-content: space-between;
-    background-color: #548dfe;
-    padding: 10px;
-    box-shadow: 2px 2px 4px 0 rgb(0 0 0 / 20%);
-    width: 44.5%;
-    color: #fff;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #548dfe;
+  padding: 8px;
+  box-shadow: 2px 2px 4px 0 rgb(0 0 0 / 20%);
+  width: 45%;
+  color: #fff;
+  margin-bottom: 5px;
 }
 
 .anime-card img {
-    width: 100%;
-    height: 25vh;
+  width: 100%;
+  height: 25vh;
 }
 
 .anime-card-info {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .anime-card-info h3 {
-    font-size: smaller;
+  font-size: 10px;
 }
