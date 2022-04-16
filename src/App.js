@@ -10,6 +10,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/animefacts" element={<AnimeFacts />} />
+          <Route path="*" element={<Homepage />} />
         </Routes>
       </div>
     </BrowserRouter>
