@@ -1,9 +1,11 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
 import AnimeCard from '../components/AnimeCard';
 import './Anime.css';
 
 const AnimePage = () => {
+  const navigate = useNavigate();
   const data = useSelector((state) => state.animeReducer.animes);
   return (
     <div className="anime-page">
@@ -19,12 +21,16 @@ const AnimePage = () => {
       <div className="anime-list">
         <h4>List of Animes </h4>
       </div>
-      <div>
+      <div className="anime-row">
         {data.map((anime) => (
           <AnimeCard
             key={anime.id}
+            id={anime.id}
             name={anime.name}
             image={anime.image}
+            onClick={() => {
+              navigate('/animefacts', { state: { name: anime.name } });
+            }}
           />
         ))}
 

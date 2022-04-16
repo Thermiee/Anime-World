@@ -1,0 +1,39 @@
+.animeFacts-image {
+  text-align: center;
+}
+
+.animeFacts-card {
+  padding: 10px;
+  border: 1px solid;
+  margin: 2px;
+  box-shadow: 2px 2px 4px 0 rgb(0 0 0 / 20%);
+  color: #fff;
+}
+
+.header-fact {
+  display: flex;
+  align-items: center;
+  background-color: #548dfe;
+  color: #fff;
+  box-shadow: 2px 2px 4px 0 rgb(0 0 0 / 20%);
+}
+
+.header-fact h1 {
+  margin-left: 20%;
+}
+
+.animeFacts-image img {
+  width: 40%;
+  height: 30vh;
+  box-shadow: 2px 2px 4px 0 rgb(0 0 0 / 20%);
+}
+
+.animeFacts-card-container h2 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+.header-fact svg {
+  font-size: xx-large;
+}

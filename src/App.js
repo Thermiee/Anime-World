@@ -1,15 +1,18 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import AnimePage from './pages/Anime';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Homepage from './pages/Homepage';
+import AnimeFacts from './pages/FactsPage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Navbar />
-      </header>
-      <AnimePage />
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/animefacts" element={<AnimeFacts />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 

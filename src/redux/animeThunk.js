@@ -1,4 +1,4 @@
-import { fetchAnimes } from './anime';
+import { fetchAnimes } from './anime/anime';
 
 const fetchAnimeThunk = () => async (dispatch) => {
   try {
@@ -8,6 +8,7 @@ const fetchAnimeThunk = () => async (dispatch) => {
     );
 
     const payload = response.data.map((anime) => ({
+      id: anime.anime_id,
       name: anime.anime_name,
       image: anime.anime_img,
     }));
