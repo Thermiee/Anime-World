@@ -67,15 +67,15 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .anime-card {
-      width: 23%;
-    }
-
-    .header {
-        height: 50vh;
-    }
-    
-    .header-img img {
-        height: 40vh;
-    }
+  .anime-card {
+    width: 23%;
   }
+
+  .header {
+    height: 50vh;
+  }
+
+  .header-img img {
+    height: 40vh;
+  }
+}
