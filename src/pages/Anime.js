@@ -30,7 +30,7 @@ const AnimePage = () => {
             image={anime.image}
             onClick={() => {
               navigate(`/animefacts?name=${anime.name}`);
-              console.log(`/animefacts?name=${anime.name}`);
+              navigate('/animefacts', { state: { name: anime.name } });
             }}
           />
         ))}

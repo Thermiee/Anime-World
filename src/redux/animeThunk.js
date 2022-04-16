@@ -1,4 +1,4 @@
-import { fetchAnimes } from './anime';
+import { fetchAnimes } from './anime/anime';
 
 const fetchAnimeThunk = () => async (dispatch) => {
   try {
