@@ -29,7 +29,6 @@ const AnimePage = () => {
             name={anime.name}
             image={anime.image}
             onClick={() => {
-              navigate(`/animefacts?name=${anime.name}`);
               navigate('/animefacts', { state: { name: anime.name } });
             }}
           />

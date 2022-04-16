@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
+import { IoIosArrowBack } from 'react-icons/io';
 import FactCard from '../components/AnimeFacts';
 import fetchAnimeFact from '../redux/factThunk';
+import './Facts.css';
 
 const AnimeFacts = () => {
+  const navigate = useNavigate();
   const [response, setResponse] = useState();
   const { state } = useLocation();
   useEffect(() => {
@@ -12,15 +15,22 @@ const AnimeFacts = () => {
   ]);
   return (
     <div className="animeFacts">
-      <h1>Facts Page</h1>
+      <div className="header-fact">
+        <IoIosArrowBack
+          onClick={() => {
+            navigate('/');
+          }}
+        />
+        <h1>Facts Page</h1>
+      </div>
       <div className="animeFacts-card-container">
         { response
         && (
         <>
-          <h1>
+          <h2>
             {state.name}
-          </h1>
-          <div className="animeFacts-card-container">
+          </h2>
+          <div className="animeFacts-image">
             <img src={response.img} alt={state.name} />
           </div>
         </>
