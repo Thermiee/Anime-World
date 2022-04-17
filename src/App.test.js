@@ -29,14 +29,11 @@ it('Fetch anime facts', () => {
   expect(state).toEqual({
     animes: [],
   });
-}
-);
+});
 
-it ('Fetch anime', () => {
+it('Fetch anime', () => {
   const state = animeReducer(undefined, { type: 'FETCH_ANIMES' });
   expect(state).toEqual({
     animes: [],
   });
-}
-);
-
+});
