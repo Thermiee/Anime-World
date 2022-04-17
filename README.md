@@ -4,7 +4,7 @@
 
 > "Anime-World" is a website show list of animes and show different facts about them.
 
-[Live Demo](scintillating-khapse-6ebe08.netlify.app)
+[Live Demo](https://graceful-baklava-ba0862.netlify.app)
 
 [Video Demo](https://www.loom.com/share/8302a8a49d7a493388745ddbfdaf65bf)
 
