@@ -6,7 +6,7 @@
 
 [Live Demo](https://graceful-baklava-ba0862.netlify.app)
 
-[Video Demo](https://www.loom.com/share/8302a8a49d7a493388745ddbfdaf65bf)
+[Video Demo](https://www.loom.com/share/7ea52218e8214777943bc64a6b26f89e)
 
 ![Homepage](./application.png)
 
