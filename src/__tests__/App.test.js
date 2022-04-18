@@ -1,9 +1,9 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { Provider } from 'react-redux';
-import store from './redux/store';
-import App from './App';
-import animeReducer from './redux/anime/anime';
+import store from '../redux/store';
+import App from '../App';
+import animeReducer from '../redux/anime/anime';
 
 it('Render HomePage', () => {
   const page = renderer.create(
