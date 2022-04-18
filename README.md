@@ -38,11 +38,12 @@ Run the live server
 
 `npm run start`
 
+Go to [Localhost](http://localhost:3000)
+
+
 Run the Test
 
 `npm test`
-
-Go to [Localhost](http://localhost:3000)
 
 Build the distribution folder before hosting the app
 
